@@ -1,4 +1,7 @@
 # lab
+convert between lab and rgb colour spaces
+
+[![build status](https://travis-ci.org/michaelrhodes/lab.svg?branch=master)](https://travis-ci.org/michaelrhodes/lab)
 
 ## install
 ```sh
@@ -9,10 +12,14 @@ npm install michaelrhodes/lab#1.0.0
 ```js
 var lab = require('lab/from-rgb')
 var rgb = require('lab/to-rgb')
+
+rgb(lab([124, 24, 241]))
+> [124, 24, 241]
 ```
 
 ## obey
 Copyright (c) 2014 Kevin Kwok <antimatter15@gmail.com>
+
 Copyright (c) 2019 Michael Rhodes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
